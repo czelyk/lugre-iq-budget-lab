@@ -1,0 +1,2 @@
+docs/threshold-protocol.md -text whitespace=cr-at-eol
+experiments/frozen_threshold.py -text whitespace=cr-at-eol

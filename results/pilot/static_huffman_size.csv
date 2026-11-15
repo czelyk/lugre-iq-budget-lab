@@ -1,0 +1,11 @@
+operation,budget_bytes,max_duration_ms,encoded_bytes,codebook_bytes,format
+OP2_0,480000,110,451548,256,analytical canonical lengths; no encoding timed
+OP2_0,960000,230,943985,256,analytical canonical lengths; no encoding timed
+OP23_0,480000,110,448390,256,analytical canonical lengths; no encoding timed
+OP23_0,960000,230,937259,256,analytical canonical lengths; no encoding timed
+OP38_0,480000,100,472713,256,analytical canonical lengths; no encoding timed
+OP38_0,960000,200,945420,256,analytical canonical lengths; no encoding timed
+OP40_0,480000,90,441562,256,analytical canonical lengths; no encoding timed
+OP40_0,960000,190,931610,256,analytical canonical lengths; no encoding timed
+OP76_0,480000,90,447078,256,analytical canonical lengths; no encoding timed
+OP76_0,960000,190,943434,256,analytical canonical lengths; no encoding timed

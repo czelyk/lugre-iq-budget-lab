@@ -1,0 +1,3 @@
+policy,budget_bytes,duration_ms,actual_bytes,PRN,doppler_hz,phase_at_4MSps,peak_mean,nominal_threshold,nominal_candidate
+requantized,1670310,410,1640000,32,3400,760,2.1632022857666016,2.285981556501459,0
+lower_rate,1670310,410,1640000,32,3400,760,2.1408309936523438,2.285981556501459,0

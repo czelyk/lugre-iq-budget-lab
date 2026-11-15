@@ -1,0 +1,40 @@
+Pocket SDR revision 23c91c732365a3668d303656de95a36e7604b58a
+
+commissioning raw 480000 bytes
+ANSI[34mSIG= L1CA, PRN=  18, COFF=  0.73600 ms, DOP= -10724 Hz, C/N0= 38.8 dB-HzANSI[0m
+TIME = 2.753 s
+
+orbit lossless 449526 bytes
+SIG= L1CA, PRN=  21, COFF=  0.55175 ms, DOP= -9589 Hz, C/N0= 28.7 dB-Hz
+TIME = 4.619 s
+
+orbit lowbit 480000 bytes
+SIG= L1CA, PRN=  21, COFF=  0.06050 ms, DOP= -9997 Hz, C/N0= 28.6 dB-Hz
+TIME = 5.546 s
+
+orbit lowrate 480000 bytes
+SIG= L1CA, PRN=  21, COFF=  0.52675 ms, DOP=  9577 Hz, C/N0= 28.9 dB-Hz
+TIME = 5.534 s
+
+orbit raw 480000 bytes
+SIG= L1CA, PRN=  21, COFF=  0.69500 ms, DOP=  9546 Hz, C/N0= 29.6 dB-Hz
+TIME = 2.739 s
+
+surface lossless 1670310 bytes
+SIG= L1CA, PRN=  31, COFF=  0.51425 ms, DOP= -1940 Hz, C/N0= 31.4 dB-Hz
+SIG= L1CA, PRN=  32, COFF=  0.85350 ms, DOP= -14992 Hz, C/N0= 27.4 dB-Hz
+TIME = 29.747 s
+
+surface lowbit 1640000 bytes
+SIG= L1CA, PRN=  31, COFF=  0.51425 ms, DOP= -1948 Hz, C/N0= 30.9 dB-Hz
+SIG= L1CA, PRN=  32, COFF=  0.01975 ms, DOP= -15031 Hz, C/N0= 27.1 dB-Hz
+TIME = 38.134 s
+
+surface lowrate 1640000 bytes
+SIG= L1CA, PRN=  31, COFF=  0.51425 ms, DOP= -1947 Hz, C/N0= 30.5 dB-Hz
+SIG= L1CA, PRN=  32, COFF=  0.36625 ms, DOP= 15038 Hz, C/N0= 27.4 dB-Hz
+TIME = 38.173 s
+
+surface negative_reverse 1670310 bytes
+SIG= L1CA, PRN=  32, COFF=  0.14600 ms, DOP= 15006 Hz, C/N0= 27.5 dB-Hz
+TIME = 14.862 s

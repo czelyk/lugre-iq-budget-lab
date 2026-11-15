@@ -1,0 +1,16 @@
+{
+  "threshold": 3.4896763658910444,
+  "rank": 32,
+  "trials": 32,
+  "alpha": 0.05,
+  "calibration": [
+    "OP2_0",
+    "OP23_0",
+    "OP38_0",
+    "OP40_0"
+  ],
+  "fingerprint": "49bd501a0df3dcd50868dc45493cd1caecdd7a6c639c8d7416e0cb83ea7b1e69",
+  "sdr_revision": "23c91c732365a3668d303656de95a36e7604b58a",
+  "backend": "cuda",
+  "backend_version": "14.2.0"
+}
