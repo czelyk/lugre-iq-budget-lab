@@ -2,7 +2,7 @@
 
 A research prototype for comparing raw GNSS recording policies under the same downlink byte budget. It replays real L1 I/Q captures from NASA and ASI's Lunar GNSS Receiver Experiment (LuGRE) and measures whether quantization, reduced sample rate, or lossless encoding changes the ground receiver's GPS L1 C/A acquisition decision.
 
-**Latest result:** With symmetric DC correction and a seeded Pocket SDR feedback channel, low bit depth retained one extra 40 ms window in two lunar-surface captures at 960 kB. All five captures tied at the first-window endpoint. [Feedback tracking results](docs/feedback-tracking-results.md)
+**Latest result.** The frozen tracking replay tested four GPS targets from three additional archive operations. No budget produced extra initial continuity for low-bit recording against lossless zlib. One common window passed only with the lossless and full-resolution streams at 960 kB. [Additional tracking results](docs/tracking-recheck-results.md)
 
 [Previous Pocket SDR independent replay](docs/independent-replay.md)
 At equal I/Q byte budgets, low bit depth preserved longer aided correlation. A receive-side DC correction removed the apparent fixed-horizon advantage on the OP22 transfer capture. [Sustained-correlation results](docs/snapshot-correlation-results.md)
@@ -76,6 +76,14 @@ This replay conditions all I/Q formats with the same DC estimator, then feeds th
 ```
 
 [Protocol](docs/feedback-tracking-protocol.md) · [Recorded feedback scores](results/feedback-tracking)
+
+## Reproduce the additional tracking replay
+
+```sh
+python experiments/tracking_recheck.py --check
+```
+
+[Frozen protocol](docs/tracking-recheck-protocol.md) · [Results and limits](docs/tracking-recheck-results.md)
 
 ## Repository map
 
